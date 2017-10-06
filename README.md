@@ -1,5 +1,4 @@
 ## Advanced Lane Finding
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 The goals / steps of this project are the following:  
 
@@ -13,14 +12,18 @@ The goals / steps of this project are the following:
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 ---
+Link to final video with lane marked: https://youtu.be/BbSBmZg715k
 
 
+Examples are give throughout report.
+To view the report click [here](https://github.com/bkapsalis/Advanced_Lane_Line_Detection/blob/master/Advanced_Lane_Lines.ipynb) or click Advanced_Lane_Lines.ipynb above.
 
-
-Examples are give throughout.
 
 Functions were written to get the high, med and low thresholds of RBG, HLS , Magnitude and Direction Gradients and create a binary images. An example of the visualization demonstrates that the high threshold for the S channel of HLS was one of the best for visualizing the lane lines in shadowy areas. 
 Many combinations were tried to best visualize the lane lines. A final combination included S channel with a high threshold, gradient in the x direction with a low threshold, magnitude and directional gradients. Masking was used.
+
+![Alt text](/imgs/img1.png?raw=true "Optional Title")
+
 
 It will be easier to work with the binary lane line images if we had a bird eye view. The cv2.getPerspectiveTransform() was use to write a birds_eye() function to transform the lane line image.
 
