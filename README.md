@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
 ---
-Link to OUTPUT VIDEO with lane marked: https://youtu.be/eOmayu-5u50
+Link to OUTPUT VIDEO with lane marked: [https://youtu.be/o1Sq5nb9Gqg](https://youtu.be/o1Sq5nb9Gqg)
 
 
 Examples are give throughout report.
